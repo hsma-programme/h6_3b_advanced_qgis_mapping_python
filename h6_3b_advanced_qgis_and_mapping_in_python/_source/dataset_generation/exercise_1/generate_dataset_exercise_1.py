@@ -39,4 +39,19 @@ for col in cols_to_calc_list:
     new_colname = f"{col}_per_1000_occ"
     msoa_gdf_pop[new_colname] = msoa_gdf_pop.apply(lambda row: (row[col] / row['All Ages']) * 1000 , axis=1)
 
-msoa_gdf_pop.to_file("h6_3b_advanced_qgis_and_mapping_in_python/datasets/stats_19_counts_by_msoa_normalised_3857.geojson", driver='GeoJSON')
+
+#msoa_gdf_pop.to_file("h6_3b_advanced_qgis_and_mapping_in_python/datasets/stats_19_counts_by_msoa_normalised_3857.geojson", driver='GeoJSON')
+
+msoa_boundaries_file = (
+    msoa_gdf_pop[['MSOA11CD', 'MSOA11NM', 'MSOA11NMW', 'BNG_E', 'BNG_N', 'LONG', 'LAT',
+       'GlobalID','geometry']]
+)
+
+msoa_boundaries_file.to_file("h6_3b_advanced_qgis_and_mapping_in_python/datasets/msoa_boundaries.geojson", driver='GeoJSON')
+
+msoa_data_file = (
+     msoa_gdf_pop.drop(columns=['MSOA11NM', 'MSOA11NMW', 'BNG_E', 'BNG_N', 'LONG', 'LAT',
+       'GlobalID','geometry'])
+)
+
+msoa_data_file.to_csv("h6_3b_advanced_qgis_and_mapping_in_python/datasets/stats_19_counts_by_msoa_normalised.csv")

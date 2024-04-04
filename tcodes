@@ -1,0 +1,50 @@
+variables              package:wakefield               R Documentation
+
+_A_v_a_i_l_a_b_l_e _V_a_r_i_a_b_l_e _F_u_n_c_t_i_o_n_s
+
+_D_e_s_c_r_i_p_t_i_o_n:
+
+     See a listing of all available variable functions for use in
+     ‘r_data_frame’ or ‘r_list’.
+
+_U_s_a_g_e:
+
+     variables(type = NULL, ncols = 5, ...)
+     
+_A_r_g_u_m_e_n_t_s:
+
+    type: The output type. Must be either ‘NULL’ (returns a character
+          vector), ‘"matrix"’, or ‘"list"’; or the user may extract a
+          specific type from a list using: ‘"character"’, ‘"date"’,
+          ‘"factor"’, ‘"integer"’, ‘"logical"’, ‘"numeric"’, ‘"ordered
+          factor"’.  Setting ‘type = TRUE’ will also return a ‘list’.
+          The ‘list’ version breaks the variable functions into
+          classes.  Specifying a specific class (e.g., ‘type =
+          "numeric"’ will list only variable functions that yield a
+          numeric output.
+
+   ncols: The number of columns to use if ‘type = "matrix"’.
+
+     ...: Other arguments passed to ‘matrix’.
+
+_V_a_l_u_e:
+
+     Returns a ‘character’ vector, ‘matrix’ of all variable functions,
+     or a ‘list’ of variable functions by type.
+
+_E_x_a_m_p_l_e_s:
+
+     variables()
+     
+     variables("list")
+     variables(TRUE)
+     names(variables("list"))
+     variables("ordered factor")
+     variables("numeric")
+     
+     variables("matrix")
+     variables("matrix", ncols=3)
+     variables("matrix", 1)
+     variables("matrix", byrow = TRUE)
+     
+
