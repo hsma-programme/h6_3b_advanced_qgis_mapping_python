@@ -47,6 +47,12 @@ dent_df_final = dent_coords[['CONTRACT_NUMBER', 'PROVIDER_NAME', 'LATEST_PPC_ADD
        'result_eastings', 'result_northings', 'result_nhs_ha',
        'result_longitude', 'result_latitude']]
 
+dent_df_final = dent_df_final.groupby(['PROVIDER_NAME', 'LATEST_PPC_ADDRESS_POSTCODE', 'LSOA11_CODE', 'result_eastings', 'result_northings', 'result_nhs_ha',
+       'result_longitude', 'result_latitude']).sum().fillna(0).reset_index()
+
+# limit to dentists who delivered activity
+dent_df_final = dent_df_final[dent_df_final['UDA_DELIVERED'] > 0]
+
 dent_df_final_gdf = geopandas.GeoDataFrame(
     dent_df_final,
     geometry = geopandas.points_from_xy(
