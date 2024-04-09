@@ -31,4 +31,3 @@ Students should be able to:
 - Add a basemap to a static map
 - Add labels to a static map
 - Use libraries to improve the layout of labels
-- Create an inset map for a static map
