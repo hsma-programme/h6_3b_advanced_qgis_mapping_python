@@ -6,6 +6,7 @@
 
 Students should be able to:
 
+- Identify common geographical data format (GeoJSON, GeoPackage, ESRI shapefiles) and explain the benefits of each
 - Import different kinds of data (GeoJSON, GeoPackage, ESRI shapefiles)
 - Create a choropleth from data stored within one of the above file formats
 - Explain the different ways of categorising and colouring area data
