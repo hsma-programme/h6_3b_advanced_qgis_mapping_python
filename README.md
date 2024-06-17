@@ -19,6 +19,15 @@ Open Exercise 4 in Google Colab: <a target="_blank" href="https://colab.research
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+### Exercise Structure
+
+Notebooks are split into **core**, **extension** and **challenge** sections. 
+
+All students should aim to complete the exercises within the **core** section. Completing these exercises will give you practice of all of the key concepts discussed in the lectures and you can stop after this section if you wish. 
+
+Students looking to push themselves and their understanding can go on to attempt the **extension** exercises if they would like to.
+
+The **challenge** section contains exercises that may go beyond what is covered in the lectures; there will be an expectation of looking things up in documentation or on sites such as StackOverflow, or using tools such as perplexity.ai to obtain boilerplate code. These exercises may take significantly longer than is allocated during the lectures and are designed to be an enjoyable challenge for those who want to push their coding skills.
 
 ## Learning Objectives
 
