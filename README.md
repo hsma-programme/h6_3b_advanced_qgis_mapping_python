@@ -29,6 +29,18 @@ Students looking to push themselves and their understanding can go on to attempt
 
 The **challenge** section contains exercises that may go beyond what is covered in the lectures; there will be an expectation of looking things up in documentation or on sites such as StackOverflow, or using tools such as perplexity.ai to obtain boilerplate code. These exercises may take significantly longer than is allocated during the lectures and are designed to be an enjoyable challenge for those who want to push their coding skills.
 
+## Solutions
+
+Solution notebooks are available in the **solutions** folder, or can be opened in Colab. 
+
+Open Exercise 3 SOLUTIONS in Google Colab: <a target="_blank" href="https://colab.research.google.com/github/hsma-programme/h6_3b_advanced_qgis_mapping_python/blob/main/h6_3b_advanced_qgis_and_mapping_in_python/solutions/HSMA 3B Exercise 3 - Importing Files and Basic Plots with Geopandas.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+Open Exercise 4 SOLUTIONS in Google Colab: <a target="_blank" href="https://colab.research.google.com/github/hsma-programme/h6_3b_advanced_qgis_mapping_python/blob/main/h6_3b_advanced_qgis_and_mapping_in_python/solutions/HSMA 3B Exercise 4 - Enhancing our Static Map Plots.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
 ## Learning Objectives
 
 ### Part 1: Advanced QGIS
