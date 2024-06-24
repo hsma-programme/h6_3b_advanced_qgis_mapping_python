@@ -4,6 +4,17 @@
 
 <a href="https://docs.google.com/presentation/d/1LLwK5dx8Ne6GeFRT2DyPnT2AmpcWRKyt767Nis_lYkU/edit?usp=sharing"><img src="https://img.shields.io/static/v1?label=Google+Slides&message=Click+here+to+view+the+slides+for+this+session&color=%23FBBC04&style=for-the-badge&logo=googleslides&logoColor=%23FBBC04" alt="Google Slides - Click here to view slides for this session"></a>
 
+## Book
+
+<a href="https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/"><img src="https://img.shields.io/static/v1?label=Book&message=Click+here+to+view+the+relevant+HSMA+book&color=%23782828&style=for-the-badge&logo=mdbook" alt="Book - Click here to view the relevant HSMA book"></a>
+
+## Lecture Recording
+
+<a href="https://youtu.be/eHJzQn9mI2E"><img src="https://img.shields.io/static/v1?label=Youtube&message=Click+here+to+watch+the+QGIS+section&color=%23282828&style=for-the-badge&logo=youtube&logoColor=%23FF0000" alt="Youtube - Click here to watch the QGIS section of the lecture"></a>
+
+<a href="https://youtu.be/7w366aEAGAs"><img src="https://img.shields.io/static/v1?label=Youtube&message=Click+here+to+watch+the+python+section&color=%23282828&style=for-the-badge&logo=youtube&logoColor=%23FF0000" alt="Youtube - Click here to watch the python section of the lecture"></a>
+
+
 ## Exercises
 
 Exercises 1 and 2 are to be undertaken in QGIS. There are no online alternatives for these exercises.
