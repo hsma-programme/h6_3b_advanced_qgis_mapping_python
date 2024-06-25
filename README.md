@@ -4,6 +4,8 @@
 
 <a href="https://docs.google.com/presentation/d/1LLwK5dx8Ne6GeFRT2DyPnT2AmpcWRKyt767Nis_lYkU/edit?usp=sharing"><img src="https://img.shields.io/static/v1?label=Google+Slides&message=Click+here+to+view+the+slides+for+this+session&color=%23FBBC04&style=for-the-badge&logo=googleslides&logoColor=%23FBBC04" alt="Google Slides - Click here to view slides for this session"></a>
 
+<a href="https://docs.google.com/presentation/d/1nJ5Qmh7K5CXttRn_4eN5UzcVY5FBXqNiQCXW7BoDQ5s/edit?usp=sharing"><img src="https://img.shields.io/static/v1?label=Google+Slides&message=Click+here+for+bonus+slides+on+inset+maps&color=%23FBBC04&style=for-the-badge&logo=googleslides&logoColor=%23FBBC04" alt="Google Slides - Click here to view slides for this session"></a>
+
 ## Book
 
 <a href="https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/"><img src="https://img.shields.io/static/v1?label=Book&message=Click+here+to+view+the+relevant+HSMA+book&color=%23782828&style=for-the-badge&logo=mdbook" alt="Book - Click here to view the relevant HSMA book"></a>
